@@ -1,0 +1,39 @@
+﻿生成启动时间为 2018/2/26 9:53:46。
+     1>项目“C:\Users\Administrator\Documents\Visual Studio 2012\Projects\detect_demo\DetectDemo\DetectDemo\DetectDemo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt detectLine.cpp
+         detectLine.cpp
+     1>detectLine.cpp(412): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\Visual Studio 2012\Projects\detect_demo\DetectDemo\x64\Release\DetectDemo.exe" /NOLOGO libvlc.lib libvlccore.lib detLine.lib mclmcrrt.lib mclmcr.lib opencv_ml2413.lib opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_objdetect2413.lib opencv_ts2413.lib opencv_video2413.lib opencv_nonfree2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_videostab2413.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Administrator\Documents\Visual Studio 2012\Projects\detect_demo\DetectDemo\x64\Release\DetectDemo.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Documents\Visual Studio 2012\Projects\detect_demo\DetectDemo\x64\Release\DetectDemo.lib" /MACHINE:X64 x64\Release\json_reader.obj
+         x64\Release\json_value.obj
+         x64\Release\json_writer.obj
+         x64\Release\addLine.obj
+         x64\Release\config.obj
+         x64\Release\detectLine.obj
+         x64\Release\downloadConfig.obj
+         x64\Release\license.obj
+         x64\Release\lightControler.obj
+         x64\Release\main.obj
+         x64\Release\main_back.obj
+         x64\Release\sender.obj
+         x64\Release\sendVideo.obj
+         x64\Release\showVideo.obj
+         x64\Release\testImg.obj
+         x64\Release\vclient.obj
+         x64\Release\VLCReader.obj
+         x64\Release\VLCReader.obj
+         x64\Release\vlcTest.obj
+         x64\Release\vlc_addLine.obj
+         x64\Release\watcher.obj
+         "x64\Release\源.obj"
+     1>x64\Release\VLCReader.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+         正在生成代码
+         已完成代码的生成
+         DetectDemo.vcxproj -> C:\Users\Administrator\Documents\Visual Studio 2012\Projects\detect_demo\DetectDemo\x64\Release\DetectDemo.exe
+     1>已完成生成项目“C:\Users\Administrator\Documents\Visual Studio 2012\Projects\detect_demo\DetectDemo\DetectDemo\DetectDemo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.39
