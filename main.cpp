@@ -233,6 +233,7 @@
 //	int count = 0;
 //	while (true) {
 //		//video >> current;
+//		Sleep(100);
 //
 //		current = r->capture().clone();
 //		while(current.empty())

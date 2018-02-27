@@ -14,7 +14,7 @@
    "max_status_size" : 10,
    "medianBlur_ksize" : null,
    "mth" : 1,
-   "restart" : 1,
+   "restart" : 0,
    "send_to_server" : 0,
    "sender_rate" : 0.70000000000000007,
    "server" : "http://114.80.141.78:57772/CURLRecvPOST/PostRecvServlet?method=upload",
